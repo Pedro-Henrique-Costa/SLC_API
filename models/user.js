@@ -13,14 +13,14 @@ const userSchema = new Schema({
         type: String,
         required: true
     },
-    phone,
-    cpf,
-    cnh,
-    cep,
-    adress,
-    city,
-    estate,
-    picture,
+    // phone,
+    // cpf,
+    // cnh,
+    // cep,
+    // adress,
+    // city,
+    // estate,
+    // picture,
     password: {
         type: String,
         required: true
