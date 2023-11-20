@@ -1,0 +1,19 @@
+POST http://localhost:3000/api/cars
+Content-Type: application/json
+
+{
+    "locador": [ 
+        {
+        "name": "Joao",
+        "email": "joao@gamil.com",
+        "password": "senha123",
+        "locador": true
+        }
+    ],
+    "precoDiaria": "300",
+    "pontoDeRetirada": "Rua Tiririca",
+    "statusCar": "Vago",
+    "placa": "AAAA-1111",
+    "modelo": "Fiat Uno",
+    "foto": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.comprecar.com.br%2Frevista%2Ffiat-uno-economy&psig=AOvVaw0lhK8rKE2XQ9zA_u3puBbY&ust=1700591410621000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCOjY9_yZ04IDFQAAAAAdAAAAABAJ"
+}

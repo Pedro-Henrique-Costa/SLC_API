@@ -2,7 +2,8 @@ const mongoose = require("mongoose")
 
 const { Schema } = mongoose;
 
-const { userSchema } = require("./user")
+const { userSchema } = require("./user");
+const { Double } = require("mongodb");
 
 const carSchema = new Schema({
     locador: {
@@ -13,7 +14,7 @@ const carSchema = new Schema({
         type: String,
         required: true
     },
-    status: {
+    statusCar: {
         type: String,
         required: true
     },
@@ -29,7 +30,7 @@ const carSchema = new Schema({
         type: String,
         required: true
     },
-    reservistalocador: {
+    reservista: {
         type: [userSchema],
     },
     // ano,
