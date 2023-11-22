@@ -48,3 +48,34 @@ Content-Type: application/json
     "modelo": "Renault Sandero",
     "foto": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.comprecar.com.br%2Frevista%2Ffiat-uno-economy&psig=AOvVaw0lhK8rKE2XQ9zA_u3puBbY&ust=1700591410621000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCOjY9_yZ04IDFQAAAAAdAAAAABAJ"
 }
+
+###
+POST http://localhost:3000/api/users
+Content-Type: application/json
+
+{
+    "name": "Cleber",
+    "email": "cleber@gmail.com",
+    "password": "1234senha",
+    "locador": false
+}
+
+### 
+GET http://localhost:3000/api/users
+
+###
+GET http://localhost:3000/api/users/655d35ea337b74ca3ad042e6
+
+###
+DELETE http://localhost:3000/api/users/655d35ea337b74ca3ad042e6
+
+###
+PUT http://localhost:3000/api/users/655d4579490491e8865f76b7
+Content-Type: application/json
+
+{
+    "name": "Cleber Novo",
+    "email": "cleber@gmail.com",
+    "password": "1234senha",
+    "locador": false
+}
