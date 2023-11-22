@@ -27,7 +27,6 @@ const userSchema = new Schema({
     },
     locador: {
         type: Boolean,
-        required: true
     },
     carrosAlugados: {
         type: [carSchema],

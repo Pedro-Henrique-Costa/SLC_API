@@ -8,7 +8,6 @@ const { Double } = require("mongodb");
 const carSchema = new Schema({
     locador: {
         type: [userSchema],
-        required: true
     },
     pontoDeRetirada: {
         type: String,
